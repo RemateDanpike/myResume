@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>resume</title>
+    <title>罗穆翔个人网站</title>
     <meta name="v">
     <link type="text/css" rel="stylesheet" href="index.css"/>
     <link href="/favicon.ico" type="image/x-icon"/>
@@ -11,7 +11,7 @@
 <body>
 <div class="header-wrapper">
     <div class="left-wrap">
-        <img src="http://xquser.xiangqu.com/FkLhb3xrwUTsnc_DnQ4ZuaQJPCW0?imageView2/2/w/100/q/90/format/jpg/100x100/" alt="左慈">
+        <img class="linkHref" src="http://xquser.xiangqu.com/FkLhb3xrwUTsnc_DnQ4ZuaQJPCW0?imageView2/2/w/100/q/90/format/jpg/100x100/" alt="左慈">
         <div class="info-lay">
             <div class="name">罗穆翔</div>
             <div class="job">前端开发工程师</div>
@@ -20,7 +20,7 @@
 </div>
 <div id="fullpage">
     <div class="section page page1">
-        <div class="imgwrap"></div>
+        <div class="imgwrap linkHref"></div>
         <div class="title">不积跬步，无以至千里；不积小流，无以成江海。</div>
     </div>
     <div class="section page page2">
@@ -262,6 +262,9 @@
         }
         $('.turn').click(function(){
             tabClick($(this).attr('data-click-type'));
+        });
+        $('.linkHref').click(function(){
+            window.location.href = "https://rematedanpike.github.io/myblog.html#/prototypeClosure1";
         })
     });
 </script>

@@ -461,6 +461,8 @@ form {
     content: "\e96e"; }
   #fullpage .page6 .contact-wrapper .icon-github:before {
     content: "\eab0"; }
+  #fullpage .page6 .contact-wrapper .icon-map:before {
+      content: "\e94b"; }
 
 .icon-home2:before {
   content: "\e901"; }
